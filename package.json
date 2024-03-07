@@ -3,10 +3,10 @@
   "version": "1.4.0",
   "type": "module",
   "scripts": {
-    "start": "vite --port 3000 --open",
-    "dev": "vite --port 3000 --open",
+    "start": "vite --port 3000",
+    "dev": "vite --port 3000",
     "build": "vite build",
-    "serve": "vite preview --open",
+    "serve": "vite preview --host --port 3000",
     "test": "vitest"
   },
   "dependencies": {

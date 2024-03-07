@@ -14,6 +14,7 @@ const struct = [
   "_id",
   "email",
   "password",
+  "role"
 ]
 
 function RouteApiUser() {
